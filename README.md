@@ -19,3 +19,7 @@ var data = getData('API');
 ```
 
 `getData()` の引数に取得したいシート名を入力してください。
+
+## 速度計測
+
+引数に、 `-s -o /dev/null -w  "%{time_starttransfer}\n"` を追加して実行してください。
